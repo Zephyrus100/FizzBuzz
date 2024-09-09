@@ -33,24 +33,19 @@ class FizzBuzz {
 
         int i = 1;
         while (i <= 100) {
-            i = fizzBuzz(i);
+            fizzBuzz(i);
+            i++;
         }
     }
 
-    private static int fizzBuzz(int i) {
+    public static void fizzBuzz(int i) {
         if (i % 3 == 0 && i % 5 == 0) {
-            System.out.println("Fizz Buzz");
-        }
-        if (i % 3 == 0) {
-            System.out.println("Fizz");
-        }
-        if (i % 5 == 0) {
-            System.out.println("Buzz");
-        }
+            System.out.println("Fizz Buzz"); }
+        else if (i % 3 == 0) {
+            System.out.println("Fizz"); }
+        else if (i % 5 == 0) {
+            System.out.println("Buzz"); }
         else {
-            System.out.println(i);
-        }
-        i++;
-        return i;
+            System.out.println(i); }
     }
 }
