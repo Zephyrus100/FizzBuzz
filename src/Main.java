@@ -1,6 +1,6 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         FizzBuzz.fizzBuzz(3);
-        FizzBuzz.main(args);
+        FizzBuzz.main();
     }
 }

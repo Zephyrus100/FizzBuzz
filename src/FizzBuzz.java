@@ -48,4 +48,13 @@ class FizzBuzz {
         else {
             System.out.println(i); }
     }
+
+    public static void main() {
+        int i = 1;
+        while (i <= 100) {
+            fizzBuzz(i);
+            i++;
+        }
+
+    }
 }
